@@ -18,8 +18,6 @@ public class TestIOproviderHandler extends ChannelInboundHandlerAdapter{
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         System.out.println("服务激活，发送数据！");
 
-
-
 //        ChannelFuture f = ctx.channel().writeAndFlush(new RegisterMsg().setAddress(Constant.HOST).setPort(PORT));
 
 //        super.channelActive(ctx);

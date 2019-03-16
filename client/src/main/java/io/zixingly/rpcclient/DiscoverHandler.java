@@ -11,6 +11,9 @@ import io.netty.handler.codec.serialization.ObjectEncoder;
 
 import io.zixingly.assis.ServeMsg;
 
+/**
+ * 服务发现处理
+ */
 public class DiscoverHandler extends ChannelDuplexHandler {
 
     final AccessHandler accessHandler = new AccessHandler();
